@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Baloo+Paaji+2&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600&family=Baloo+Paaji+2&family=Roboto:wght@300;400&family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  background-color: rgb(237 227 227);
+  /* width: 18vw; */
+  height: 100vh;
+  font-family: "Baloo Bhai 2";
+  transition: transform 0.3s ease-in;
+}
+/* #navigation {
+  width: 5px; 
+  height: calc(100vh - 50px); 
+  opacity: 0; 
+  text-align: center; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  animation: pulse-out 0.5s;
+} */
+
+.sidebar nav {
+  padding: 48px;
+}
+.sidebar nav ul {
+  list-style: none;
+}
+.sidebar nav ul li {
+  padding: 18px;
+  font-size: 21px;
+  cursor: pointer;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 80vw;
+}
+.InfoTech {
+  /* background-color: purple; */
+  display: flex;
+  justify-content: space-around;
+  margin: 89px auto;
+  height: 55vh;
+  margin-right: 95px;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+  margin-left: 25px;
+}
+.hello {
+  font-size: 45px;
+}
+.name {
+  font-family: "Baloo Bhai 2";
+  font-size: 40px;
+  font-weight: bold;
+}
+.about {
+  font-size: 25px;
+}
+.aboutmore {
+  width: 75%;
+  font-size: 20px;
+}
+.devImg img {
+  height: 65vh;
+}
+
+.buttons {
+  margin-top: 12px;
+}
+
+.buttons button {
+  padding: 10px;
+  font-family: "Baloo Bhai 2";
+  font-size: 15px;
+  border-radius: 24px;
+  background-color: #3c7ae4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.buttons button:hover {
+ background-color: #8caeeb;
+}
+/* contact us css */
+.container form {
+  display: flex;
+  font-family: "Baloo Bhai 2";
+  flex-direction: column;
+  margin-left: 150px;
+  /* margin-top: 18px; */
+}
+form h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-left: 145px;
+  text-underline-offset: 7px;
+  text-decoration: underline;
+}
+form div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+form .form-label {
+  font-size: 20px;
+}
+div .form-control {
+  padding: 10px;
+  width: 140%;
+  font-family: "Baloo Bhai 2";
+  border-radius: 14px;
+}
+#emailHelp{
+  font-size: 12px;
+}
+#message {
+  font-family: "Baloo Bhai 2";
+  padding: 14px;
+  width: 139%;
+  border-radius: 14px;
+}
+.btn-primary {
+  margin: 0px auto;
+  margin-left: 246px;
+  padding: 12px;
+  background-color: #dfcece;
+  color: black;
+  /* border: 2px solid black; */
+  border-radius: 22px;
+  font-size: 14px;
+  width: 30%;
+}
+.btn-primary:hover {
+  background-color: #f5eaea;
+  color: black;
+}
+
+/* About Us css */
+.aboutContainer {
+  /* background-color: #e7ecf1; */
+  margin: 25px;
+  height: 600px;
+  font-family: "Baloo Bhai 2";
+}
+.aboutContainer h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-right: 265px;
+  text-underline-offset: 10px;
+  text-decoration: underline;
+
+  /* position: relative; */
+  /* padding: 14px; */
+}
+.aboutMe {
+     margin-left: 36px;
+  font-family: "Baloo Bhai 2";
+}
+.aboutMe p {
+  font-size: 21px;
+  width: 76%;
+  margin: 20px;
+}
+.aboutMe .row {
+  font-size: 21px;
+  width: 76%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Myskill Css */
+
+.main h1 {
+  font-size: 45px;
+  margin-top: 25px;
+  text-align: center;
+  font-family: "Baloo Bhai 2";
+}
+#sHeading{
+  margin-right: 190px;
+  text-decoration: underline;
+    text-underline-offset: 9px;
+}
+.skillContainer {
+  margin-left: 21px;
+  margin-top: -25px;
+  padding: 13px;
+  font-family: "Baloo Bhai 2";
+}
+.skillbox {
+  display: flex;
+  flex-direction: column;
+  margin: 23px;
+  font-size: 21px;
+  /* justify-content: center;
+  align-items: center; */
+}
+.skills {
+  background-color: #ff5a5a;
+  width: 312px;
+  height: 21px;
+  border-radius: 32px;
+ 
+}
+.hundered {
+  width: 312px;
+ 
+}
+.seven {
+  width: 295px;
+}
+.five {
+  width: 230px;
+}
+.three {
+  width: 200px;
+}
+.totalRating {
+  background-color: rgb(223, 206, 206);
+  width: 389px;
+  height: 21px;
+  border-radius: 32px;
+}
+.lineUp{
+  display: flex;
+}
+.sidebarGo{
+  transform: translate(-234px , 0px);
+  /* position: absolute; */
+}
+.humburger{
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  cursor: pointer;
+}
+.hum{
+   cursor: pointer;
+}
+.cross{
+  margin-left: 186px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Services css */
+.cardbox{
+  display: flex;
+}
+
+ .servicesContainer .card{
+  width: 18rem;
+  margin-top: 55px;
+  border-radius: 49px;
+  background-color: #ede3e3;
+  box-shadow: 0 9px 13px rgb(116 99 99);
+  margin-left: 30px;
+ 
+}
+.servicesContainer .card:hover{
+  box-shadow: none;
+  
+  
+
+}
+.servicesContainer h1{
+  margin-top: 16px;
+  text-decoration-line: underline;
+  text-align: center;
+  text-underline-offset: 14px;
+  font-size: 50px;
+  font-family: "Baloo Bhai 2";
+}
+
+
+.card img{
+  margin-top: 35px;
+  width: 124px;
+  margin-left: 80px;
+}
+.card-body{
+  font-size: 20px;
+
+}
+.card-title{
+  text-align: center;
+  font-size: 24px;
+  font-family: "Baloo Bhai 2";
+}
+.card-text{
+  padding: 22px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+  padding-top: 8px;
+}
+.card .card1{
+  width: 147px;
+}
+/* .btn{
+  padding: 9px;
+    border-radius: 22px;
+    background: blue;
+    text-decoration: none;
+    color: white;
+} */
+/* Responsiveness Css */
+@media only screen and (max-width: 1300px) {
+  body {
+    background-color: red;
+
+  }
+  
+}
